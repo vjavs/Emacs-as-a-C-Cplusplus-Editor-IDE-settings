@@ -1,7 +1,7 @@
 ; start package.el with emacs
 (require 'package)
 ; add MELPA to repository list
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 ; initialize package.el
 (package-initialize)
 ; start auto-complete with emacs
